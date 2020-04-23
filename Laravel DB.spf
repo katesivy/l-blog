@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>posts</string>
+			<key>host</key>
+			<string>localhost</string>
+			<key>kcid</key>
+			<string>4501284890259392890</string>
+			<key>name</key>
+			<string>localhost</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPSocketConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0
+			b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRk
+			YXRhgAGtCwwZGhscHSEoLDA1OlUkbnVsbNMNDg8QFBhXTlMua2V5
+			c1pOUy5vYmplY3RzViRjbGFzc6MREhOAAoADgASjFRYXgAWABoAI
+			gAxUdHlwZVRyb3dzVGtleXNfECZTZWxlY3Rpb25EZXRhaWxUeXBl
+			UHJpbWFyeUtleWVkRGV0YWlsc9MNDg8eHyCgoIAH0iIjJCVaJGNs
+			YXNzbmFtZVgkY2xhc3Nlc18QE05TTXV0YWJsZURpY3Rpb25hcnmj
+			JCYnXE5TRGljdGlvbmFyeVhOU09iamVjdNIODykroSqACYAL0g8t
+			Li9ZTlMuc3RyaW5ngApSaWTSIiMxMl8QD05TTXV0YWJsZVN0cmlu
+			Z6MxMzRYTlNTdHJpbmdYTlNPYmplY3TSIiM2N15OU011dGFibGVB
+			cnJheaM2ODlXTlNBcnJheVhOU09iamVjdNIiIyY7oiY8WE5TT2Jq
+			ZWN0AAgAEQAaACQAKQAyADcASQBMAFEAUwBhAGcAbgB2AIEAiACM
+			AI4AkACSAJYAmACaAJwAngCjAKgArQDWAN0A3gDfAOEA5gDxAPoB
+			EAEUASEBKgEvATEBMwE1AToBRAFGAUkBTgFgAWQBbQF2AXsBigGO
+			AZYBnwGkAacAAAAAAAACAQAAAAAAAAA9AAAAAAAAAAAAAAAAAAAB
+			sA==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{1, 0}, {641, 318}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>table</key>
+			<string>posts</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>158</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>SELECT biography FROM heroes
+
+WHERE heroes.id=2</string>
+		<string>SELECT biography FROM heroes</string>
+		<string>UPDATE abilities SET ability='goodgrief' WHERE id=3</string>
+		<string>UPDATE abilities SET ability='good grief' WHERE id=3</string>
+		<string>UPDATE abilities SET ability='$abilities' WHERE id=3</string>
+		<string>SELECT * FROM heroes</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on relationships.hero2_id=heroes.id
+WHERE (hero1_id = 3) AND (type_id=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on relationships.hero2_id=heroes.id
+WHERE (hero1_id = 3) AND (type.id=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on relationships.hero2_id=heroes.id
+WHERE (hero1_id = 3) AND (type=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on relationships.hero2_id=heroes.id
+WHERE (hero1_id = 3) AND (type_id=2)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on relationships.hero2_id=heroes.id
+WHERE (hero1_id = 2) AND (type_id=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on heroes.id=relationships.hero2_id
+WHERE (hero1_id = 2) AND (type_id=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on relationships.hero2_id=heros.id
+WHERE (hero1_id = 2) AND (type_id=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on relationships.hero2_id=hero.id
+WHERE (hero1_id = 2) AND (type_id=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on hero.id=relationships.hero2_id
+WHERE (hero1_id = 2) AND (type_id=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on hero.id=relationships.hero2_id
+WHERE (hero1_id = "2") AND (type_id="1")</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on hero.id=relationships.hero2_id
+WHERE (hero1.id = 2) AND (type_id=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on hero.id=relationships.hero2_id
+WHERE (hero.id = 2) AND (type_id=1)</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on hero.id=relationships.hero2_id
+WHERE hero.id = 2 AND type_id=1</string>
+		<string>SELECT * FROM relationships
+INNER JOIN heroes on hero.id=relationships.hero_id
+WHERE hero.id = 2 AND type_id=1</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.26</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
